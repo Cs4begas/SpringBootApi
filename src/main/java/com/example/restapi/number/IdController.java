@@ -8,6 +8,6 @@ public class IdController
 {
     @GetMapping("/id") //ทำ GET
     public DataResponse generateId(){
-        return  new DataResponse("XYZ");
+        return  new DataResponse("XYZ7");
     }
 }

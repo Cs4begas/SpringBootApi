@@ -10,9 +10,9 @@ public class RestapiApplication {
 	public static void main(String[] args) {
 
 		ConfigurableApplicationContext ctx = SpringApplication.run(RestapiApplication.class, args);
-		GenerateIdService service1 = ctx.getBean(GenerateIdService.class);
-		System.out.println("====>" + service1.counter);
-		service1.counter ++;
+//		GenerateIdService service1 = ctx.getBean(GenerateIdService.class);
+//		System.out.println("====>" + service1.counter);
+//		service1.counter ++;
 //		GenerateIdService service1 = ctx.getBean(GenerateIdService.class);
 //		System.out.println("====>" + service1.counter);
 //		service1.counter ++;
